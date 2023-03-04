@@ -5,7 +5,7 @@ import pickle
 
 class Model:
    def __init__(self, network):
-      self.network = network
+      self.network = network # a list of layer Objects like Dense
       self.costs = []
 
    def mse(self, y_true, y_pred):
